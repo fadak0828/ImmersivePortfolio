@@ -1,0 +1,21 @@
+{
+  "name": "immersive-portfolio",
+  "version": "1.0.0",
+  "description": "Kai Yu - Immersive Media Artist Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -s . -l 3000",
+    "dev": "serve -s . -l 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "artist",
+    "immersive",
+    "media"
+  ],
+  "author": "Kai Yu",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
