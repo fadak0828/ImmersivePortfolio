@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Artist Portfolio</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#5e19e6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#161121",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display antialiased">
+<div class="relative flex w-full flex-col overflow-x-hidden">
+<!-- Hero Section -->
+<div class="relative flex h-screen w-full flex-col">
+<div class="flex h-full grow flex-col">
+<div class="flex flex-1 items-center justify-center">
+<div class="flex min-h-[480px] w-full flex-1 flex-col items-center justify-center gap-6 bg-cover bg-center bg-no-repeat p-4" data-alt="Abstract image with soft fog and volumetric light gradients in cyan and magenta" style='background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDxc9nZIKSa4GepAEkSHrdTZxEM6LNXw7jG0aj54Ly7PI-WDKlRT_x6mnFeL_0ydbSJJd0Am--m91x4PzHv5k7KO-2ZjQbFNoFYc2VjL9Utv2_H8qJOGOOUjE7RmZQqIH7yT9fsW3NKFidevKE63bHBn3NI3UXRXMylxMvhZwrMvBbqVRstItKDB_eQEETQ0m1sqfDKoXrk0CO56_EFR7HyDLIm3RKPtqIoP4KVB_vEX-T57IvVk6J8wTn8HFoOXM3iBPtVMB0EEQTT");'>
+<div class="flex flex-col gap-2 text-center">
+<h1 class="font-display text-5xl font-extralight leading-tight tracking-wider text-[#F5F5F5] md:text-7xl">
+                                KAI YU
+                            </h1>
+<h2 class="font-display text-base font-normal leading-normal text-[#F5F5F5]/80 md:text-lg">Immersive Media Artist</h2>
+</div>
+<a class="absolute bottom-10 flex cursor-pointer flex-col items-center justify-center gap-2 text-[#F5F5F5]/80 hover:text-white" href="#about">
+<span class="text-sm font-light">Scroll</span>
+<span class="material-symbols-outlined text-xl">expand_more</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Content Wrapper -->
+<main class="mx-auto flex w-full max-w-5xl flex-col px-4 sm:px-6 lg:px-8">
+<!-- About Section -->
+<section class="py-20 md:py-32" id="about">
+<div class="grid grid-cols-1 gap-12 md:grid-cols-3">
+<div class="md:col-span-1">
+<h2 class="font-display text-[22px] font-bold leading-tight tracking-[-0.015em] text-black dark:text-white">About</h2>
+</div>
+<div class="md:col-span-2">
+<p class="font-display text-base font-normal leading-relaxed text-black/80 dark:text-white/80">
+                            Kai Yu is an artist and researcher whose work explores the intersections of digital technology, human perception, and the natural world. Through large-scale installations and virtual environments, Yu crafts sensorial experiences that challenge our understanding of reality and presence.
+                        </p>
+<p class="mt-4 font-display text-base font-normal leading-relaxed text-black/80 dark:text-white/80">
+                            Utilizing volumetric light, generative algorithms, and spatial sound, Yu's practice is rooted in a philosophy of "digital warmth." The work aims to evoke a sense of calm and connection, transforming sterile digital tools into conduits for profound, museum-like contemplation.
+                        </p>
+</div>
+</div>
+</section>
+<!-- Works Section -->
+<section class="py-20 md:py-32" id="works">
+<div class="flex flex-col gap-8">
+<h2 class="font-display text-[22px] font-bold leading-tight tracking-[-0.015em] text-black dark:text-white">Works</h2>
+<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg bg-cover bg-center" data-alt="Cinematic shot of a glowing orb in a dark, foggy environment" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDz9VjXFpxME9Nj9TsgIwie5BaiExMYUU9U9V_5VqX1SN_GX9fbr3xb37v528AUIaXQHtXEz1QRMHZCiBRtFaCpLdOJn8q75frC1hM-hzXI5UzofwyXJ7qoOEjnvlS7iy9NDjjhdJHMM5i3fGeYtwubwOMACOu2Vrxp57xn-ctonxkEFf3Z2E67hEncdjG6nLUNTlkdBl0fG8NaBumQvGn-EjhNPSAzzXZcyo11jZNXINdsEaStmiHgqwHVYm6hSxv0KRI2o5Yy4eOg");'>
+<div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<p class="font-display text-xl font-bold leading-tight text-white transition-transform duration-300 group-hover:translate-y-[-4px]">Aura Flow</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg bg-cover bg-center" data-alt="Abstract light trails forming a complex, interwoven pattern" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA2RY5LijjvWyGf43Fp3UDFkKjt1hpOPEzL3xlNk6rZrvk79P8756rO_eV_4m9F63OWs2NVrkOiome9nFv2ZsLTHI0SxSYXZiPSiBytxwIm7nzxeI9oqwqaWzxk4iCKiUvIDlJKQJBKns4VvvHNDaOHc34SfJX_H-cnHWxjrYyNASWflxOFMvTMAP52-PmtHLUk7tj_glJLhZa_BfhETYuCeh-GGXkTOjtcNspjYmKptBdrRQjsqtxIWWhHkXMuuEuSJtw3hEmpyp17");'>
+<div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<p class="font-display text-xl font-bold leading-tight text-white transition-transform duration-300 group-hover:translate-y-[-4px]">Quantum Weave</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg bg-cover bg-center" data-alt="Geometric shapes illuminated by soft, colorful gradients" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBC2c3qwT51GYjHov0kUGgx3PV94Arha7MMDsLqP3yBw45tTs4b1zDcX4cBug-x69HYN_e7Wm0hCSASGfHWbpTvOf1eYVlS7nROUmRN4jdxXHzIIrzmNBRgq7MMf4TIkCIuFUZlvTSdY2p93nnocsstJZHBWuhfkVzOEp5EXbCWPcc6kBbfr62SAagQoIg7un1yOj8lCgEPwesz-huBpkQDFIcm6ElJv7UdMOLGgKsctB9wR0LjhW90rHQNYNdSN_jFO3Iu3zguuqd5");'>
+<div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<p class="font-display text-xl font-bold leading-tight text-white transition-transform duration-300 group-hover:translate-y-[-4px]">Lightfield</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg bg-cover bg-center" data-alt="A person silhouetted against a projection of ethereal, cloud-like forms" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAWMmxWyj0ZX56Wt0FUXc48C2C8ZOSM5tz8KL_kxBBCj39qV--JXEDXZocEjFBeBkmLw-IIRGkAhcucL2kEnQ_34JUYRBd6vx2EmN_bNqQgR2HGCq29KVUhV4pl0GHSlcOU5jw5p-8BKpOtS1n_2muqpa3gL2TpvVgnZQpIUgHi3GYRcKwW7ZqLPngJAOUR3zUKc74xy85tJ2Sk78_XkKDTU_Yfk02klNYUPsOcDWMH4yOQRVsfKV42J1qgcMoYPI83_rmInFjgesX6");'>
+<div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<p class="font-display text-xl font-bold leading-tight text-white transition-transform duration-300 group-hover:translate-y-[-4px]">Echo Chamber</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg bg-cover bg-center" data-alt="Close-up of iridescent light refracting through a crystal prism" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMW3At2GjaZv8WVnuMCTSvlYSdkP6ohSt3xOwHBFQpCoaAxZfqfCERhfsP-SjC2_bc0LloxOGBZGCdpAhqrAR1dtdJfVkKMsaw8dUm85157RhSA7Km2zyXDuTe9dh9TA82eQD998VQtxdrUlc2aYyx5b-EhRJLuWKm3Mp6Zw4bUYQ6SdljKZGOpnMdOUdVCZHIu7_HFofS3lKwVxMchWQVL_48ycNB4yY6hu94m5SkmHBoXU-rlWvLt0bLfMgePvWLRbIlqa0NRNDL");'>
+<div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<p class="font-display text-xl font-bold leading-tight text-white transition-transform duration-300 group-hover:translate-y-[-4px]">Prismatic Echoes</p>
+</div>
+</div>
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg bg-cover bg-center" data-alt="A dark room filled with suspended, glowing filament lines" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDJaYkkHqday4TCj9hn9HAxhFDtKYmfqSjbp39F-wuGVK9WoS8sF_XPc9_CxKMJp3dikvaa3ERxltNRZJFI9sbPoOfyG2LvjlYEJD_2keDfrHLtCPSU8v5wB_PRlzeVZuCifSaSADmvcYBbJvmekQUvUY5DhfqyqjzVLIE7XfFxfZwhUxaA6SMFNNlOgp9_9OGo7uLxh9_BpvxU23L4_dxwI4Gwnhw7QwfKbdg9VL88YZVRco1sImSRpzoimLxjack1TmPnoWq9siOV");'>
+<div class="absolute inset-0 bg-black/30 transition-opacity duration-300 group-hover:bg-black/50"></div>
+<div class="absolute bottom-0 left-0 p-5">
+<p class="font-display text-xl font-bold leading-tight text-white transition-transform duration-300 group-hover:translate-y-[-4px]">Neural Bloom</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Exhibitions Section -->
+<section class="py-20 md:py-32" id="exhibitions">
+<div class="flex flex-col gap-12">
+<h2 class="font-display text-[22px] font-bold leading-tight tracking-[-0.015em] text-black dark:text-white">Exhibitions</h2>
+<div class="relative flex flex-col gap-8 border-l border-black/20 pl-8 dark:border-white/20">
+<!-- Timeline Item -->
+<div class="group relative">
+<div class="absolute -left-[37px] top-1 h-2.5 w-2.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-primary dark:bg-white/20 dark:group-hover:bg-primary"></div>
+<p class="font-display text-base font-bold text-black dark:text-white">2024 - Subliminal Spaces</p>
+<p class="font-display text-base text-black/70 dark:text-white/70">Future Art Gallery, Tokyo</p>
+</div>
+<!-- Timeline Item -->
+<div class="group relative">
+<div class="absolute -left-[37px] top-1 h-2.5 w-2.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-primary dark:bg-white/20 dark:group-hover:bg-primary"></div>
+<p class="font-display text-base font-bold text-black dark:text-white">2023 - Digital Nature</p>
+<p class="font-display text-base text-black/70 dark:text-white/70">The Modern Institute, New York</p>
+</div>
+<!-- Timeline Item -->
+<div class="group relative">
+<div class="absolute -left-[37px] top-1 h-2.5 w-2.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-primary dark:bg-white/20 dark:group-hover:bg-primary"></div>
+<p class="font-display text-base font-bold text-black dark:text-white">2022 - Art &amp; Code Symposium</p>
+<p class="font-display text-base text-black/70 dark:text-white/70">ZKM Center, Karlsruhe</p>
+</div>
+<!-- Timeline Item -->
+<div class="group relative">
+<div class="absolute -left-[37px] top-1 h-2.5 w-2.5 rounded-full bg-black/20 transition-colors duration-300 group-hover:bg-primary dark:bg-white/20 dark:group-hover:bg-primary"></div>
+<p class="font-display text-base font-bold text-black dark:text-white">2021 - Liminal States</p>
+<p class="font-display text-base text-black/70 dark:text-white/70">180 The Strand, London</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Contact Footer -->
+<footer class="border-t border-black/10 py-12 dark:border-white/10" id="contact">
+<div class="mx-auto flex max-w-5xl flex-col items-center justify-between gap-6 px-4 text-center sm:flex-row sm:px-6 lg:px-8">
+<p class="font-display text-sm text-black/60 dark:text-white/60">© 2024 Kai Yu. All Rights Reserved.</p>
+<div class="flex items-center gap-4">
+<a class="group relative font-display text-sm text-black/80 dark:text-white/80" href="#">
+                        Instagram
+                        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-primary transition-transform duration-300 group-hover:scale-x-100"></span>
+</a>
+<a class="group relative font-display text-sm text-black/80 dark:text-white/80" href="#">
+                        Email
+                        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-primary transition-transform duration-300 group-hover:scale-x-100"></span>
+</a>
+<a class="group relative font-display text-sm text-black/80 dark:text-white/80" href="#">
+                        Are.na
+                        <span class="absolute bottom-0 left-0 h-px w-full origin-left scale-x-0 bg-primary transition-transform duration-300 group-hover:scale-x-100"></span>
+</a>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
